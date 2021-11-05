@@ -38,13 +38,6 @@ function Log({data, searchTerm, filterTerm, loading}) {
             <tbody>
             {data.filter((val) => {
                 return val.logs[0].type.toLowerCase().includes(searchTerm.toLowerCase()) 
-            }).filter((x) => {
-                if(filterTerm === "") {
-                    return x
-                } else if( x.logs[0].type.toLowerCase().includes(filterTerm.toLowerCase())) {
-                    return x
-                }
-                return null
             })
             .map((val) => {
                 return (

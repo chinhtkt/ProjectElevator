@@ -31,7 +31,7 @@ function Chart({ data }) {
         margin={{
           top: 40,
           right: 0,
-          left: 0,
+          left: 150,
           bottom: 20,
         }}
       >
@@ -47,13 +47,13 @@ function Chart({ data }) {
         />
       </PieChart>
       <BarChart
-        width={400}
+        width={500}
         height={300}
         data={data}
         margin={{
           top: 20,
           right: 0,
-          left: 0,
+          left: 20,
           bottom: 0,
         }}
       >
