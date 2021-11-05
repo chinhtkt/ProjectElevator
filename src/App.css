@@ -1,3 +1,4 @@
-.fullheight {
-    height: 100%;
+.navbar-item img {
+    max-height: 76px;
 }
+

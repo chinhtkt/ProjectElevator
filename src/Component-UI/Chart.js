@@ -11,13 +11,20 @@ import {
   Pie,
 } from "recharts";
 
-
-function Chart({data}) {
+function Chart({ data }) {
   return (
     <div class="mt-2">
-      <h2 class="is-size-4 has-text-weight-normal has-text-dark mb-2 has-text-centered">
+      {/* <h2 class="is-size-4 has-text-weight-normal has-text-dark mb-2 has-text-centered is-uppercase is-family-monospace	 mb-3">
         Statistics
-      </h2>
+      </h2> */}
+      <span class="icon-text is-flex is-justify-content-center">
+        <span class="icon">
+        <i class="fas fa-chart-line"></i>
+        </span>
+        <span><h2 class="is-size-4 has-text-weight-normal has-text-dark mb-2 has-text-centered is-uppercase is-family-monospace	mb-3">
+        Statistics
+      </h2></span>
+      </span>
       <PieChart
         width={400}
         height={200}
@@ -30,7 +37,7 @@ function Chart({data}) {
       >
         <Pie
           data={data}
-          dataKey="pv"
+          dataKey="latitude"
           cx="50%"
           cy="50%"
           innerRadius={70}
@@ -51,12 +58,12 @@ function Chart({data}) {
         }}
       >
         <CartesianGrid strokeDasharray="3 3" />
-        <XAxis dataKey="name"/>
+        <XAxis dataKey="name" />
         <YAxis />
         <Tooltip />
         <Legend />
-        <Bar dataKey="pv" fill="#8884d8" />
-        <Bar dataKey="uv" fill="#82ca9d" />
+        <Bar dataKey="latitude" fill="#8884d8" />
+        <Bar dataKey="longitude" fill="#82ca9d" />
       </BarChart>
     </div>
   );

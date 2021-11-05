@@ -1,0 +1,176 @@
+{
+    "logs": [
+        {
+            "id": 1,
+            "elevatorId": "c71dba06-ed46-4634-9c45-c42bcece40fa",
+            "date": "11/03/2021",
+            "type": "Bình thường",
+            "desc": "Thang đi lên"
+        },
+        {
+            "id": 2,
+            "elevatorId": "c71dba06-ed46-4634-9c45-c42bcece40fb",
+            "date": "11/04/2021",
+            "type": "Lỗi",
+            "desc": "Thang đóng chậm"
+        },
+        {
+            "id": 3,
+            "elevatorId": "c71dba06-ed46-4634-9c45-c42bcece40fc",
+            "date": "11/09/2021",
+            "type": "Nguy hiểm",
+            "desc": "Thang mất tín hiệu liên lạc"
+        },
+        {
+            "id": 4,
+            "elevatorId": "c71dba06-ed46-4634-9c45-c42bcece40fd",
+            "date": "11/10/2021",
+            "type": "Cảnh Báo",
+            "desc": "Mất điện"
+        }
+    ],
+    "maintainances": [
+        {
+            "id": 1,
+            "elevatorId": "c71dba06-ed46-4634-9c45-c42bcece40fa",
+            "date": "11/03/2021",
+            "type": "Lắp Đặt",
+            "desc": "Lắp đặt mới Thang Máy"
+        },
+        {
+            "id": 2,
+            "elevatorId": "c71dba06-ed46-4634-9c45-c42bcece40fb",
+            "date": "11/04/2021",
+            "type": "Bảo Dưỡng",
+            "desc": "Bảo Dưỡng Định Kỳ Lần 1"
+        },
+        {
+            "id": 3,
+            "elevatorId": "c71dba06-ed46-4634-9c45-c42bcece40fc",
+            "date": "11/05/2021",
+            "type": "Sửa chữa",
+            "desc": "Sửa chữa bảng điều khiển"
+        },
+        {
+            "id": 4,
+            "elevatorId": "c71dba06-ed46-4634-9c45-c42bcece40fd",
+            "date": "11/03/2021",
+            "type": "Nhắc Lịch",
+            "desc": "Sắp tới lịch Bảo Dưỡng Định Kỳ Lần 2"
+        }
+    ],
+    "elevators": [
+        {
+            "id": "c71dba06-ed46-4634-9c45-c42bcece40fa",
+            "maintainanceId": 1,
+            "logId": 1,
+            "address": "34 Tô Hiệu - Hà Đông - Hà Nội",
+            "phone": "917771234",
+            "img": "https://i.pinimg.com/originals/f3/3a/0f/f33a0fbf0a395a2790e870821d5c0804.jpg",
+            "latitude": 20.96910898341704,
+            "longitude": 105.78057000335417,
+            "maintainances": [
+                {
+                    "id": 1,
+                    "elevatorId": "c71dba06-ed46-4634-9c45-c42bcece40fa",
+                    "date": "11/03/2021",
+                    "type": "Lắp Đặt",
+                    "desc": "Lắp đặt mới Thang Máy"
+                }
+            ],
+            "logs": [
+                {
+                    "id": 1,
+                    "elevatorId": "c71dba06-ed46-4634-9c45-c42bcece40fa",
+                    "date": "11/03/2021",
+                    "type": "Bình thường",
+                    "desc": "Thang đi lên"
+                }
+            ]
+        },
+        {
+            "id": "c71dba06-ed46-4634-9c45-c42bcece40fb",
+            "maintainanceId": 2,
+            "logId": 2,
+            "address": "65 Lê Lợi - Hà Đông - Hà Nội",
+            "phone": "123456789",
+            "img": "https://i.pinimg.com/originals/f3/3a/0f/f33a0fbf0a395a2790e870821d5c0804.jpg",
+            "latitude": 20.969108983432423,
+            "longitude": 105.38057000335432,
+            "maintainances": [
+                {
+                    "id": 2,
+                    "elevatorId": "c71dba06-ed46-4634-9c45-c42bcece40fb",
+                    "date": "11/04/2021",
+                    "type": "Bảo Dưỡng",
+                    "desc": "Bảo Dưỡng Định Kỳ Lần 1"
+                }
+            ],
+            "logs": [
+                {
+                    "id": 2,
+                    "elevatorId": "c71dba06-ed46-4634-9c45-c42bcece40fb",
+                    "date": "11/04/2021",
+                    "type": "Lỗi",
+                    "desc": "Thang đóng chậm"
+                }
+            ]
+        },
+        {
+            "id": "c71dba06-ed46-4634-9c45-c42bcece40fc",
+            "maintainanceId": 3,
+            "logId": 3,
+            "address": "31 Văn Quán - Hà Đông - Hà Nội",
+            "phone": "12345675",
+            "img": "https://i.pinimg.com/originals/f3/3a/0f/f33a0fbf0a395a2790e870821d5c0804.jpg",
+            "latitude": 20.9691089834321,
+            "longitude": 106.38057000333213,
+            "maintainances": [
+                {
+                    "id": 3,
+                    "elevatorId": "c71dba06-ed46-4634-9c45-c42bcece40fc",
+                    "date": "11/09/2021",
+                    "type": "Nguy hiểm",
+                    "desc": "Thang mất tín hiệu liên lạc"
+                }
+            ],
+            "logs": [
+                {
+                    "id": 3,
+                    "elevatorId": "c71dba06-ed46-4634-9c45-c42bcece40fc",
+                    "date": "11/09/2021",
+                    "type": "Nguy hiểm",
+                    "desc": "Thang mất tín hiệu liên lạc"
+                }
+            ]
+        },
+        {
+            "id": "c71dba06-ed46-4634-9c45-c42bcece40fd",
+            "maintainanceId": 4,
+            "logId": 4,
+            "address": "21 Phố Xốm - Hà Đông - Hà Nội",
+            "phone": "917771234",
+            "img": "https://i.pinimg.com/originals/f3/3a/0f/f33a0fbf0a395a2790e870821d5c0804.jpg",
+            "latitude": 21.96910898343244,
+            "longitude": 103.38057000431432,
+            "maintainances": [
+                {
+                    "id": 4,
+                    "elevatorId": "c71dba06-ed46-4634-9c45-c42bcece40fd",
+                    "date": "11/03/2021",
+                    "type": "Nhắc Lịch",
+                    "desc": "Sắp tới lịch Bảo Dưỡng Định Kỳ Lần 2"
+                }
+            ],
+            "logs": [
+                {
+                    "id": 4,
+                    "elevatorId": "c71dba06-ed46-4634-9c45-c42bcece40fd",
+                    "date": "11/10/2021",
+                    "type": "Cảnh Báo",
+                    "desc": "Mất điện"
+                }
+            ]
+        }
+    ]
+}
